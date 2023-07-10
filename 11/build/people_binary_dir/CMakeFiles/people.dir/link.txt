@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpeople.a  CMakeFiles/people.dir/src/people_single.cpp.o
+/usr/bin/ranlib libpeople.a

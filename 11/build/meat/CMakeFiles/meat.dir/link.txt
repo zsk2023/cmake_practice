@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeat.a  CMakeFiles/meat.dir/src/meat.cpp.o
+/usr/bin/ranlib libmeat.a

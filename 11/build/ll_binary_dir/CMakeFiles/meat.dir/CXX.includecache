@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangshukai/desk/11/meat/include/meat.h
+iostream
+-
+vector
+-
+
+/home/zhangshukai/desk/11/meat/src/meat.cpp
+../include/meat.h
+/home/zhangshukai/desk/11/meat/include/meat.h
+

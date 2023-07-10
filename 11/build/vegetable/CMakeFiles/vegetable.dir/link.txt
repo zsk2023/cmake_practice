@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvegetable.a  CMakeFiles/vegetable.dir/src/vegetable.cpp.o
+/usr/bin/ranlib libvegetable.a

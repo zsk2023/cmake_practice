@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"options":{
+		"cwd":"${workspaceFolder}"
+	},
+	"tasks": [
+		{
+			"type":"shell",
+			"label":"mkdir",
+			"command":"mkdir",
+			"args":[
+				"-p",
+				"build"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "cmake",
+			"command": "cmake",
+			"args":[
+				"../"
+			],
+			"options": {
+				"cwd":"${workspaceFolder}/build"
+			},
+			"dependsOn":[
+				"mkdir"
+			]
+		},
+		{
+			"type":"shell",
+			"label":"make",
+			"command":"make",
+			"args": [
+				"-j7"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/build"
+			},
+			"dependsOn":[
+				"cmake"
+			]
+		},
+		{
+			"label":"Build",
+			"dependsOrder": "sequence",
+			"dependsOn":[
+				"cmake",
+				"make"
+			]
+		}
+	]
+}

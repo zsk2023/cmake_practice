@@ -1,0 +1,12 @@
+/home/zhangshukai/desk/11/build/CMakeFiles/rebuild_cache.dir
+/home/zhangshukai/desk/11/build/CMakeFiles/edit_cache.dir
+/home/zhangshukai/desk/11/build/CMakeFiles/my_cmake_exe.dir
+/home/zhangshukai/desk/11/build/meat_binary_dir/CMakeFiles/rebuild_cache.dir
+/home/zhangshukai/desk/11/build/meat_binary_dir/CMakeFiles/edit_cache.dir
+/home/zhangshukai/desk/11/build/meat_binary_dir/CMakeFiles/meat.dir
+/home/zhangshukai/desk/11/build/vegetable_binary_dir/CMakeFiles/edit_cache.dir
+/home/zhangshukai/desk/11/build/vegetable_binary_dir/CMakeFiles/rebuild_cache.dir
+/home/zhangshukai/desk/11/build/vegetable_binary_dir/CMakeFiles/vegetable.dir
+/home/zhangshukai/desk/11/build/people_binary_dir/CMakeFiles/rebuild_cache.dir
+/home/zhangshukai/desk/11/build/people_binary_dir/CMakeFiles/edit_cache.dir
+/home/zhangshukai/desk/11/build/people_binary_dir/CMakeFiles/people.dir
