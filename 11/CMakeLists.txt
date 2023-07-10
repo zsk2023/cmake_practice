@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 project(cook)
 
-include_directories(./people)
+include_directories(.)
 
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/meat meat_binary_dir)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/vegetable vegetable_binary_dir)
@@ -13,4 +13,4 @@ add_executable(my_cmake_exe
                 main.cpp 
                 )
 
-# target_link_libraries(my_cmake_exe people)
+target_link_libraries(my_cmake_exe people)
