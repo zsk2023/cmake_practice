@@ -12,7 +12,7 @@ void getpeoples(){
     people2.changePrices();
     people2.buy(2,6);
     people2.peopleInfo();
-    People people3("Ann",30,3334);
+    People people3("Ann",30,33);
     people3.changePrices();
     people3.buy(1,5);
     people3.peopleInfo();
