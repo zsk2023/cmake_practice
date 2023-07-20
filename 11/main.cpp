@@ -12,11 +12,7 @@ void getpeoples(){
     people2.changePrices();
     people2.buy(2,7);
     people2.peopleInfo();
-<<<<<<< HEAD
-    People people3("Ann",30,44);
-=======
-    People people3("Ann",30,33);
->>>>>>> fe2517bd400f1ab2b53d2f325594ef120081e19c
+    People people3("Ann",30,45);
     people3.changePrices();
     people3.buy(1,5);
     people3.peopleInfo();
