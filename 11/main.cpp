@@ -10,9 +10,13 @@ void getpeoples(){
     people1.peopleInfo();
     People people2("John");
     people2.changePrices();
-    people2.buy(2,6);
+    people2.buy(2,7);
     people2.peopleInfo();
+<<<<<<< HEAD
     People people3("Ann",30,33);
+=======
+    People people3("Ann",30,45);
+>>>>>>> a9815dafbfc013ef75abfa31ff079365bf2e9aab
     people3.changePrices();
     people3.buy(1,5);
     people3.peopleInfo();
